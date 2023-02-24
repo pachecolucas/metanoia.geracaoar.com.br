@@ -6,7 +6,7 @@ type Props = {
   index: number;
 };
 
-export default function index({ index }: Props) {
+export default function Index({ index }: Props) {
   const [key, setKey] = useState(normalizeIndex(index));
   const [state, setState] = useState(STATES[0]);
 

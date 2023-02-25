@@ -23,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
   html {
     height: 100%;
     color: white;
-    font-size: 14px;
+    /* font-size: 9px; */
     scroll-behavior: smooth;
   }
 

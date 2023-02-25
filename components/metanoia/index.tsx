@@ -15,6 +15,7 @@ export default function Index({ index }: Props) {
   }, [index]);
 
   useEffect(() => {
+    console.log("KEY: ", key);
     setState(STATES[key]);
   }, [key]);
 
@@ -66,7 +67,7 @@ export default function Index({ index }: Props) {
 }
 
 const normalizeIndex = function (index: number) {
-  const resto = index % STATES.length;
+  const resto = Math.abs(index % STATES.length);
   // console.log(`${index} / ${STATES.length} = ${resto}`);
   return resto;
 };

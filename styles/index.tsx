@@ -13,15 +13,9 @@ const AbstractBorder = styled(Abstract)`
   border: 1px solid white;
 `;
 
-const AbstractRow = styled(AbstractBorder)`
-  font-weight: bold;
-  /* display: flex;
-  justify-content: flex-start;
-  align-items: center; */
-`;
+const AbstractRow = styled(AbstractBorder)``;
 
 const AbstractColumn = styled(AbstractBorder)`
-  font-weight: bold;
   /* display: flex;
   justify-content: flex-start;
   align-items: center; */
@@ -33,7 +27,7 @@ const Wrapper = styled.div`
   aspect-ratio: 1 / 1;
   grid-template-columns: 14.69% 14.12% 14.12% 14.12% 14.12% 14.12% 14.69%;
   grid-template-rows: 14.69% 14.12% 14.12% 14.12% 14.12% 14.12% 14.69%;
-  font-size: 2vw;
+  font-size: 1.8vw;
   text-align: center;
 `;
 
@@ -82,13 +76,6 @@ const Right = styled(AbstractBorder)`
   grid-row-start: 2;
   grid-row-end: 7;
   border: none;
-`;
-
-const Column = styled(AbstractBorder)`
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
 `;
 
 const A = styled(AbstractColumn)`

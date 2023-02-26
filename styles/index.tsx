@@ -5,28 +5,27 @@ const Abstract = styled.div`
   place-items: center;
   img {
     filter: invert(100%);
-    width: 10vw;
+    width: min(10vw, 10vh);
   }
 `;
 
 const AbstractBorder = styled(Abstract)`
-  border: 0.5vw solid white;
+  border: min(0.5vw, 0.5vh) solid white;
 `;
 
 const AbstractCell = styled(Abstract)`
-  box-shadow: 0 0 0 0.5vw white;
+  box-shadow: 0 0 0 min(0.5vw, 0.5vh) white;
 `;
 
 const Wrapper = styled.div`
   display: grid;
-  width: 90vw;
+  width: min(90vw, 90vh);
   aspect-ratio: 1 / 1;
   grid-template-columns: 15.35% 14.12% 14.12% 14.12% 14.12% 14.12% 15.35%;
   grid-template-rows: 15.35% 14.12% 14.12% 14.12% 14.12% 14.12% 15.35%;
-  font-size: 1.8vw;
+  font-size: min(1.8vw, 1.8vh);
   text-align: center;
-
-  grid-gap: 0.5vw;
+  grid-gap: min(0.5vw, 0.5vh);
 `;
 
 const God = styled(AbstractBorder)`

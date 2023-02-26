@@ -1,6 +1,6 @@
 const state = {
   god: true,
-  life: true,
+  life: false,
   colA: "Criança",
   colB: "Jovem",
   colC: "Adulto",

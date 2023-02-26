@@ -1,6 +1,6 @@
 const state = {
   god: true,
-  life: true,
+  life: false,
   row0: (
     <Row
       number={0}

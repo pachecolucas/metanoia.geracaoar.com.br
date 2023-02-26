@@ -1,6 +1,6 @@
 const state = {
   god: true,
-  life: true,
+  life: false,
 
   bottom: <img src="/dots/earth.svg" alt="earth" />,
   left: <img src="/dots/water.svg" alt="water" />,

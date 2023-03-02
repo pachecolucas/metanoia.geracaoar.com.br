@@ -3,9 +3,13 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#231F20;}
+	.st0{fill:none;stroke:#231F20;stroke-width:3;stroke-miterlimit:10;}
+	.st1{fill:#231F20;}
+	.st2{font-family:'Arial-BoldMT';}
+	.st3{font-size:16px;}
 </style>
-<path class="st0" d="M57.4,27.6c0,4.2-3.4,7.6-7.6,7.6c-4.2,0-7.6-3.4-7.6-7.6s3.4-7.6,7.6-7.6C54,20,57.4,23.4,57.4,27.6"/>
-<path class="st0" d="M57.4,72.4c0,4.2-3.4,7.6-7.6,7.6c-4.2,0-7.6-3.4-7.6-7.6c0-4.2,3.4-7.6,7.6-7.6C54,64.9,57.4,68.3,57.4,72.4"
-	/>
+<g>
+	<path class="st0" d="M86,50c0,19.9-16.1,36-36,36S14,69.9,14,50s16.1-36,36-36S86,30.1,86,50"/>
+</g>
+<text transform="matrix(1 0 0 1 27.7467 57.2957)" class="st1 st2 st3">TODO</text>
 </svg>

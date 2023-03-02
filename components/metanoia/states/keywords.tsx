@@ -1,80 +1,157 @@
+import styled from "styled-components";
+
+const H1 = styled.h1`
+  font-size: 1em;
+  small {
+    display: block;
+    font-weight: normal;
+    margin: 0.7vh 0;
+  }
+`;
+
 const state = {
   god: true,
   life: true,
 
-  bottom: "Terra",
-  left: "Água",
-  top: "Ar",
-  right: "Fogo",
+  bottom: <b>TERRA</b>,
+  left: <b>ÁGUA</b>,
+  top: <b>AR</b>,
+  right: <b>FOGO</b>,
 
   a0: (
-    <div>
-      Você
-      <br />
-      You
-      <br />
-      (pais)
-    </div>
+    <H1>
+      VOCÊ <small>(Pais)</small>
+    </H1>
   ),
-  a1: "Corpo",
-  a2: "Possessivo",
-  a3: "Posse",
-  a4: "Brincar",
+  a1: (
+    <H1>
+      <small>Eu sou</small>CORPO
+    </H1>
+  ),
+  a2: (
+    <H1>
+      <small>EGO</small>
+      IN-
+      <br />
+      CONSCIENTE <small>(possessivo)</small>
+    </H1>
+  ),
+  a3: (
+    <H1>
+      POSSE <small>(Ter)</small>
+    </H1>
+  ),
+  a4: <H1>BRINCAR</H1>,
 
   b0: (
-    <div>
-      Ele
-      <br />
-      He
-      <br />
-      (ídolo)
-    </div>
+    <H1>
+      ELE <small>(Ídolo)</small>
+    </H1>
   ),
-  b1: "Reputação",
-  b2: "Refletivo",
-  b3: "Tempo",
-  b4: "Aprender",
+  b1: (
+    <H1>
+      <small>Eu sou</small>REPUTAÇÃO
+    </H1>
+  ),
+  b2: (
+    <H1>
+      <small>EGO</small>
+      EXTRA-
+      <br />
+      CONSCIENTE <small>(refletivo)</small>
+    </H1>
+  ),
+  b3: (
+    <H1>
+      TEMPO <small>(Parecer)</small>
+    </H1>
+  ),
+  b4: (
+    <H1>
+      APRENDER <small>(As 4 Dimensões)</small>
+    </H1>
+  ),
 
   c0: (
-    <div>
-      Eu
-      <br />I
-      <br />
-      (ego)
-    </div>
+    <H1>
+      EU <small>(Ego)</small>
+    </H1>
   ),
-  c1: "Mente",
-  c2: "Separativo",
-  c3: "Ciclos",
-  c4: "Trabalhar",
+  c1: (
+    <H1>
+      <small>Eu sou</small>MENTE
+    </H1>
+  ),
+  c2: (
+    <H1>
+      <small>EGO</small>
+      INTER-
+      <br />
+      CONSCIENTE <small>(separativo)</small>
+    </H1>
+  ),
+  c3: (
+    <H1>
+      CICLOS <small>(Fazer)</small>
+    </H1>
+  ),
+  c4: (
+    <H1>
+      TRABALHAR <small>(Os 4 Corpos)</small>
+    </H1>
+  ),
 
   d0: (
-    <div>
-      Nós
-      <br />
-      We
-      <br />
-      (outros)
-    </div>
+    <H1>
+      NÓS <small>(Outros)</small>
+    </H1>
   ),
-  d1: "Consciência",
-  d2: "Reflexivo",
-  d3: "Propósito",
-  d4: "Servir",
+  d1: (
+    <H1>
+      <small>Eu sou</small>CONSCIÊNCIA
+    </H1>
+  ),
+  d2: (
+    <H1>
+      <small>EGO</small>
+      INTRA-
+      <br />
+      CONSCIENTE <small>(reflexivo)</small>
+    </H1>
+  ),
+  d3: (
+    <H1>
+      PROPÓSITO <small>(Ser)</small>
+    </H1>
+  ),
+  d4: (
+    <H1>
+      SERVIR <small>(Os 4 Elementos)</small>
+    </H1>
+  ),
 
   e0: (
-    <div>
-      Todo
-      <br />
-      All
-      <br />
-      (deus)
-    </div>
+    <H1>
+      TODO <small>(Deus)</small>
+    </H1>
   ),
-  e1: "Silêncio",
-  e2: "Comtemplativo",
-  e3: "Presente",
-  e4: "Integrar",
+  e1: (
+    <H1>
+      <small>Eu</small>SOU
+    </H1>
+  ),
+  e2: (
+    <H1>
+      <small>EGO</small>
+      CONSCIENTE <small>(contemplativo)</small>
+    </H1>
+  ),
+  e3: (
+    <H1>
+      PRESENTE <small>(Estar)</small>
+    </H1>
+  ),
+  e4: <H1>REUNIR</H1>,
 };
 
 export default state;

@@ -3,6 +3,10 @@ import styled from "styled-components";
 const state = {
   god: true,
   life: false,
+
+  bottom: "Existencialismo",
+  top: "Racionalismo",
+
   row0: (
     <Row
       image="/dots/all.svg"

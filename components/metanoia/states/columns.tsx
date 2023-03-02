@@ -14,9 +14,30 @@ const Column = styled.div`
   }
 `;
 
+const H1 = styled.h1`
+  font-size: 1em;
+  small {
+    display: block;
+    font-weight: normal;
+    margin: 0.7vh 0;
+  }
+`;
+
 const state = {
   god: true,
   life: false,
+
+  left: (
+    <H1>
+      PAIS <small>(Raízes)</small>
+    </H1>
+  ),
+  right: (
+    <H1>
+      FILHOS <small>(Sementes)</small>
+    </H1>
+  ),
+
   colA: (
     <Column>
       <b>Criança</b>

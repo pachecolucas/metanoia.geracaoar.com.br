@@ -13,10 +13,26 @@ const state = {
   god: true,
   life: true,
 
-  bottom: <b>TERRA</b>,
-  left: <b>ÁGUA</b>,
-  top: <b>AR</b>,
-  right: <b>FOGO</b>,
+  bottom: (
+    <H1>
+      TERRA <small>(Matéria)</small>
+    </H1>
+  ),
+  left: (
+    <H1>
+      ÁGUA <small>(Amor)</small>
+    </H1>
+  ),
+  top: (
+    <H1>
+      AR <small>(Inteligência)</small>
+    </H1>
+  ),
+  right: (
+    <H1>
+      FOGO <small>(Espiritualidade)</small>
+    </H1>
+  ),
 
   a0: (
     <H1>

@@ -113,7 +113,7 @@ const state = {
   ),
   c4: (
     <H1>
-      TRABALHAR <small>(Os 4 Corpos)</small>
+      GANHAR <small>(Os 4 Corpos)</small>
     </H1>
   ),
 
@@ -142,7 +142,7 @@ const state = {
   ),
   d4: (
     <H1>
-      SERVIR <small>(Os 4 Elementos)</small>
+      DEVOLVER <small>(Os 4 Elementos)</small>
     </H1>
   ),
 
@@ -167,7 +167,7 @@ const state = {
       PRESENTE <small>(Estar)</small>
     </H1>
   ),
-  e4: <H1>REUNIR</H1>,
+  e4: <H1>VOLTAR</H1>,
 };
 
 export default state;

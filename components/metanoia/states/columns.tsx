@@ -27,16 +27,16 @@ const state = {
   god: true,
   life: false,
 
-  left: (
-    <H1>
-      PAIS <small>(Raízes)</small>
-    </H1>
-  ),
-  right: (
-    <H1>
-      FILHOS <small>(Sementes)</small>
-    </H1>
-  ),
+  // left: (
+  //   <H1>
+  //     PAIS <small>(Raízes)</small>
+  //   </H1>
+  // ),
+  // right: (
+  //   <H1>
+  //     FILHOS <small>(Sementes)</small>
+  //   </H1>
+  // ),
 
   colA: (
     <Column>
@@ -90,7 +90,7 @@ const state = {
         <br />
         os pontos
       </span>
-      <small>Todos / All</small>
+      <small>Todo / One</small>
     </Column>
   ),
 };

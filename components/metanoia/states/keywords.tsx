@@ -142,7 +142,7 @@ const state = {
   ),
   d4: (
     <H1>
-      DEVOLVER <small>(Os 4 Elementos)</small>
+      SERVIR <small>(Os 4 Elementos)</small>
     </H1>
   ),
 

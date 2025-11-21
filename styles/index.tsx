@@ -11,15 +11,17 @@ const Abstract = styled.div`
 
 const AbstractBorder = styled(Abstract)`
   border: min(0.5vw, 0.5vh) solid white;
+  cursor: pointer;
 `;
 
 const AbstractCell = styled(Abstract)`
   box-shadow: 0 0 0 min(0.5vw, 0.5vh) white;
+  cursor: pointer;
 `;
 
 const Wrapper = styled.div`
   display: grid;
-  width: min(90vw, 90vh);
+  width: min(85vw, 85vh);
   aspect-ratio: 1 / 1;
   grid-template-columns: 15.35% 14.12% 14.12% 14.12% 14.12% 14.12% 15.35%;
   grid-template-rows: 15.35% 14.12% 14.12% 14.12% 14.12% 14.12% 15.35%;

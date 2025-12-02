@@ -21,10 +21,30 @@ export default function Index({ index }: Props) {
   }, [key]);
 
   function handleClick(e: React.MouseEvent<HTMLDivElement>) {
-    if (e.currentTarget.style.backgroundColor) {
-      e.currentTarget.style.backgroundColor = "";
+    if (e.ctrlKey || e.metaKey) {
+      toggleBorder(e.currentTarget);
     } else {
-      e.currentTarget.style.backgroundColor = "#FF09";
+      toggleColor(e.currentTarget);
+    }
+  }
+
+  function toggleBorder(cell: HTMLDivElement) {
+    const ACTIVE_VALUE = "10px solid white";
+    if (cell.style.border != ACTIVE_VALUE) {
+      cell.style.border = ACTIVE_VALUE;
+      cell.style.transform = "scale(1.05)";
+    } else {
+      cell.style.border = "none";
+      cell.style.transform = "";
+    }
+  }
+
+  function toggleColor(cell: HTMLDivElement) {
+    const ACTIVE_VALUE = "blue";
+    if (cell.style.backgroundColor != ACTIVE_VALUE) {
+      cell.style.backgroundColor = ACTIVE_VALUE;
+    } else {
+      cell.style.backgroundColor = "";
     }
   }
 
